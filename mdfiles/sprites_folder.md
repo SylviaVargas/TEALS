@@ -15,7 +15,7 @@ For an introduction to Sprites, see the videos and the activity at
 The following blocks are used to create a sprite image as well as
 categorize what type of sprite it is.
 
-> <img src="./images/media/image4.png"
+> <img src="../images/media/image4.png"
 > style="width:5.66238in;height:2.56444in"
 > alt="A screenshot of a video game Description automatically generated" />
 
@@ -39,7 +39,7 @@ The Sprite Physics blocks are used to move the Sprite on the screen.
 -   For information and examples, go to
     <https://arcade.makecode.com/reference/sprites>
 
-<img src="./images/media/image5.png"
+<img src="../images/media/image5.png"
 style="width:5.86111in;height:5.48611in"
 alt="A screenshot of a computer Description automatically generated" />
 
@@ -48,7 +48,7 @@ alt="A screenshot of a computer Description automatically generated" />
 This block sets the speed of the Sprite on the horizontal and vertical
 axis.
 
-<img src="./images/media/image6.png"
+<img src="../images/media/image6.png"
 style="width:6.20069in;height:0.86527in"
 alt="A blue rectangle with white text Description automatically generated" />
 
@@ -74,7 +74,7 @@ alt="A blue rectangle with white text Description automatically generated" />
 This block places the Sprite on the screen at specific vertical and
 horizontal position on the screen
 
-<img src="./images/media/image7.png"
+<img src="../images/media/image7.png"
 style="width:6.03316in;height:0.69227in"
 alt="A blue and red rectangle with white text Description automatically generated" />
 
@@ -87,7 +87,7 @@ alt="A blue and red rectangle with white text Description automatically generate
 This block changes the X (or Y) position of the sprite on the screen
 with a specific X or Y value.
 
-> <img src="./images/media/image8.png"
+> <img src="../images/media/image8.png"
 > style="width:4.50844in;height:0.60079in"
 > alt="A red and blue button with white text Description automatically generated" />
 
@@ -101,7 +101,7 @@ with a specific X or Y value.
 This block changes the X (or Y) position of the sprite on the screen
 with adding the by variable to the current Sprite position.
 
-<img src="./images/media/image9.png"
+<img src="../images/media/image9.png"
 style="width:4.5in;height:0.77778in"
 alt="A red and blue rectangular button with white text Description automatically generated" />
 
@@ -115,7 +115,7 @@ alt="A red and blue rectangular button with white text Description automatically
 The Follow Sprite block sets a Sprite to move to the position of another
 Sprite.
 
-<img src="./images/media/image10.png"
+<img src="../images/media/image10.png"
 style="width:5.71746in;height:0.732in"
 alt="A blue and red rectangular with white text Description automatically generated" />
 
@@ -127,13 +127,13 @@ alt="A blue and red rectangular with white text Description automatically genera
 The following blocks provide effects for a Sprite like bouncing on a
 wall.
 
-> <img src="./images/media/image11.png"
+> <img src="../images/media/image11.png"
 > style="width:5.84313in;height:3.71918in"
 > alt="A screenshot of a game Description automatically generated" />
 
 ### Start Effect Block
 
-> <img src="./images/media/image12.png"
+> <img src="../images/media/image12.png"
 > style="width:5.76389in;height:1.01389in"
 > alt="A blue rectangle with white text Description automatically generated" />
 
@@ -142,7 +142,7 @@ wall.
 
 ### Clear Effect Block
 
-> <img src="./images/media/image13.png"
+> <img src="../images/media/image13.png"
 > style="width:4.38889in;height:0.93056in"
 > alt="A blue rectangle with white text Description automatically generated" />
 
@@ -151,7 +151,7 @@ wall.
 
 ### Destroy Sprite 
 
-> <img src="./images/media/image14.png"
+> <img src="../images/media/image14.png"
 > style="width:3.63889in;height:1.31944in"
 > alt="A red and blue rectangle with white text Description automatically generated" />
 
@@ -162,7 +162,7 @@ wall.
 
 This block destroys all players of a certain kind.
 
-> <img src="./images/media/image15.png"
+> <img src="../images/media/image15.png"
 > style="width:5.84722in;height:1.20833in"
 > alt="A blue rectangle with white text Description automatically generated" />
 
@@ -174,7 +174,7 @@ This block destroys all players of a certain kind.
 This block displays near the sprite what ever is entered in the say
 variable.
 
-> <img src="./images/media/image16.png"
+> <img src="../images/media/image16.png"
 > style="width:4.38889in;height:1.04167in"
 > alt="A red and blue button with white text Description automatically generated" />
 
@@ -191,7 +191,7 @@ edge
 
 ### Sprite Bounce on wall
 
-<img src="./images/media/image17.png"
+<img src="../images/media/image17.png"
 style="width:6.47222in;height:1.25in"
 alt="A blue rectangle with white text Description automatically generated" />
 
@@ -203,7 +203,7 @@ alt="A blue rectangle with white text Description automatically generated" />
 Sprites with the auto destroy flag on are destroyed when the sprite’s
 image moves past the edge of the screen.
 
-> <img src="./images/media/image18.png"
+> <img src="../images/media/image18.png"
 > style="width:6.29167in;height:1.29167in"
 > alt="A blue rectangle with white text Description automatically generated" />
 
@@ -230,7 +230,7 @@ For more information and examples, go to :
     -   [Makecode Arcade Tutorial 6: Creating
         projectiles](https://www.youtube.com/watch?v=_CeoT07WfZA)
 
-<img src="./images/media/image19.png"
+<img src="../images/media/image19.png"
 style="width:6.5in;height:1.69583in"
 alt="A screenshot of a video game Description automatically generated" />
 
@@ -248,7 +248,7 @@ alt="A screenshot of a video game Description automatically generated" />
 
 Lifecycle blocks are used to create or destroy a Sprite in a game.
 
-<img src="./images/media/image20.png"
+<img src="../images/media/image20.png"
 style="width:6.26099in;height:2.76214in"
 alt="A screenshot of a game Description automatically generated" />
 
@@ -257,7 +257,7 @@ alt="A screenshot of a game Description automatically generated" />
 This block is used to perform some action/code, once a sprite is
 created.
 
-> <img src="./images/media/image21.png"
+> <img src="../images/media/image21.png"
 > style="width:5.382in;height:0.96317in"
 > alt="A blue and white text box Description automatically generated" />
 
@@ -269,7 +269,7 @@ created.
 This block is used to run code in the block section when a sprite of a
 certain kind is destroyed.
 
-> <img src="./images/media/image22.png"
+> <img src="../images/media/image22.png"
 > style="width:5.57161in;height:0.93431in"
 > alt="A blue and white rectangular box with white text Description automatically generated" />
 
@@ -280,7 +280,7 @@ certain kind is destroyed.
 
 An array of Sprite is a collection of multiple sprites of the same kind.
 
-<img src="./images/media/image23.png"
+<img src="../images/media/image23.png"
 style="width:5.84722in;height:0.47222in" />
 
 -   For more information and examples, go to
@@ -290,14 +290,14 @@ style="width:5.84722in;height:0.47222in" />
 
 These blocks are used to create an image for a Sprite.
 
-<img src="./images/media/image24.png"
+<img src="../images/media/image24.png"
 style="width:5.08037in;height:2.10554in"
 alt="A screenshot of a phone Description automatically generated" />
 
 Change the current image to another Sprite’s image.  
 In this example the “mySprite” image is copied to “currentImage
 
-<img src="./images/media/image25.png"
+<img src="../images/media/image25.png"
 style="width:6.06564in;height:0.81316in"
 alt="A red rectangular object with a blue oval and a blue rectangle Description automatically generated" />
 
@@ -310,7 +310,7 @@ alt="A red rectangular object with a blue oval and a blue rectangle Description 
 
 The Sprite Scale blocks are used to change the size of a Sprite.
 
-<img src="./images/media/image26.png"
+<img src="../images/media/image26.png"
 style="width:6.55136in;height:1.65947in"
 alt="A screenshot of a computer Description automatically generated" />
 
@@ -322,7 +322,7 @@ size by setting a scale value.
 The **anchor** determines which direction the sprite will expand or
 shrink.
 
-> <img src="./images/media/image27.png"
+> <img src="../images/media/image27.png"
 > style="width:6.53566in;height:0.81251in"
 > alt="A blue and white rectangular box with white text Description automatically generated" />
 
@@ -333,7 +333,7 @@ shrink.
 
 This block can increase the Sprite size by the scale number provided.
 
-> <img src="./images/media/image28.png"
+> <img src="../images/media/image28.png"
 > style="width:6.54643in;height:0.76299in"
 > alt="A blue and white rectangular sign with white text Description automatically generated" />
 

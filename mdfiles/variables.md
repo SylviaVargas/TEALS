@@ -14,14 +14,14 @@ the provided to the program.
 
 The **set** block assigns or changes the variable’s value.
 
-<img src="./images/media/image1.png"
+<img src="../images/media/image1.png"
 style="width:3.15169in;height:0.81498in"
 alt="A red chat bubble with white text and black numbers Description automatically generated" />
 
 You can also use the set block to assign a ***variable*** to another
 ***variable***.
 
-<img src="./images/media/image2.png"
+<img src="../images/media/image2.png"
 style="width:3.17071in;height:1.03065in"
 alt="A red rectangular object with white text Description automatically generated" />
 
@@ -29,7 +29,7 @@ alt="A red rectangular object with white text Description automatically generate
 
 The change block adds a number specified in the ***by*** variable.
 
-<img src="./images/media/image3.png"
+<img src="../images/media/image3.png"
 style="width:3.27325in;height:0.75282in"
 alt="A red rectangular box with white text Description automatically generated" />v
 

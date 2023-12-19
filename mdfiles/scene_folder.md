@@ -7,7 +7,7 @@ For more information and examples, go to
 
 #### Screen Settings
 
-<img src="./images/media/image54.png"
+<img src="../images/media/image54.png"
 style="width:4.59409in;height:2.69317in"
 alt="A screenshot of a chat Description automatically generated" />
 
@@ -21,7 +21,7 @@ Background color
 
 ## Camera
 
-<img src="./images/media/image55.png"
+<img src="../images/media/image55.png"
 style="width:5.80556in;height:4.09722in"
 alt="A screenshot of a chat Description automatically generated" />
 

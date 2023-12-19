@@ -11,7 +11,7 @@ alt="A screenshot of a chat Description automatically generated" />
 
 ## Logic: Boolean Blocks
 
-<img src="./images/media/image77.png"
+<img src="../images/media/image77.png"
 style="width:2.11111in;height:2.51389in"
 alt="A screenshot of a cell phone Description automatically generated" />
 

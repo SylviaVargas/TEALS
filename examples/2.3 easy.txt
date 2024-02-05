@@ -1,0 +1,41 @@
+# Step 1: Create your image 
+my_image: Image = img("""
+    . . . 8 8 8 8 8 8 8 . . . .
+    . . 8 9 9 9 9 9 9 9 8 . . .
+    . 8 9 9 9 9 9 9 9 9 9 8 . .
+    8 9 9 9 9 9 9 9 9 9 9 9 8 .
+    8 9 9 9 9 9 9 9 9 9 9 9 8 .
+    8 9 9 9 9 9 9 9 9 9 9 9 8 .
+    8 9 9 9 9 9 1 9 9 9 9 9 8 .
+    8 9 9 9 9 9 9 9 9 9 9 9 8 .
+    8 9 9 9 9 9 9 9 9 9 9 9 8 .
+    8 9 9 9 9 9 9 9 9 9 9 9 8 .
+    . 8 9 9 9 9 9 9 9 9 9 8 . .
+    . . 8 9 9 9 9 9 9 9 8 . . .
+    . . . 8 8 8 8 8 8 8 . . . .
+    . . . . . . . . . . . . . .
+""")
+# Step 2: Create an empty sprites 
+my_sprite: Sprite = None
+x: number = 0
+y: number = 0
+row_count: number = 0
+
+my_image.say("I'm " + str(my_image.height) + " pixels high")
+
+# Step 3: Determine how many sprites of my_image can fit on the screen 
+x = Math.idiv(my_image.width, 2)
+y = Math.idiv(my_image.height, 2)
+
+# Step 4: Loop to print the image for 2 rows  
+#.           and as for as many can fit on the screen 
+row_count = 0
+while (row_count < 2):  # Loop for 2 rows 
+    # Loop to print my_image across the screen..
+    while (x + my_image.width / 2 <= screen.width):
+        my_sprite = sprites.create(my_image, SpriteKind.food)
+        my_sprite.set_position(x, y)
+        x += my_image.width
+    x = Math.idiv(my_image.width, 2)
+    y += my_image.height
+    row_count += 1

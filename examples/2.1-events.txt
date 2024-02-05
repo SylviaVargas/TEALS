@@ -1,0 +1,49 @@
+
+@namespace
+class SpriteKind:
+    addLife = SpriteKind.create()
+
+player_sprite: Sprite = None
+player_sprite = sprites.create(assets.image("""hero"""), SpriteKind.player)
+player_sprite.set_stay_in_screen(True)
+controller.move_sprite(player_sprite)
+
+def on_a_pressed():
+    say_something(player_sprite)
+controller.A.on_event(ControllerButtonEvent.PRESSED, on_a_pressed)
+
+def say_something(sprite: Sprite):
+    sprite.say_text("Hello!")
+
+strawberry = sprites.create(assets.image("""strawberry"""), SpriteKind.food)
+strawberry.x = randint(10, 140)
+strawberry.y = randint(10, 110)
+
+def on_food_overlap(sprite, otherSprite):
+    info.change_score_by(10)
+    otherSprite.x = randint(10, 140)
+    otherSprite.y = randint(10, 110)
+sprites.on_overlap(SpriteKind.player, SpriteKind.food, on_food_overlap)
+
+
+enemy = sprites.create(assets.image("""ghostie"""), SpriteKind.enemy)
+enemy.x = randint(10, 140)
+enemy.y = randint(10, 110)
+enemy.follow(player_sprite, 50)
+
+def on_enemy_overlap(sprite, otherSprite):
+    info.change_life_by(-1)
+    otherSprite.x = randint(10, 140)
+    otherSprite.y = randint(10, 110)
+    sprite.x = randint(10, 140)
+    sprite.y = randint(10, 110)
+sprites.on_overlap(SpriteKind.player, SpriteKind.enemy, on_enemy_overlap)
+
+extraLife = sprites.create(assets.image("""heart"""), SpriteKind.addLife)
+extraLife.x = randint(10, 140)
+extraLife.y = randint(10, 110)
+
+def on_extralife_overlap(sprite, otherSprite):
+    info.change_life_by(1)
+    otherSprite.destroy()
+sprites.on_overlap(SpriteKind.player, SpriteKind.addLife, on_extralife_overlap)

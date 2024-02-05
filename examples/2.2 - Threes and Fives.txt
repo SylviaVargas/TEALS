@@ -1,0 +1,29 @@
+"""
+Lab 2.2 Threes and Fives 
+
+"""
+
+game.splash("welcome to lab 2.1 - Threes and Fives")
+#player_sprite: Sprite = None
+#player_sprite = sprites.create(assets.image("""hero"""), SpriteKind.player)
+
+# Step 3 and 4 
+guess= game.ask_for_number("Enter a number") 
+result3 = guess % 3 
+result5 = guess % 5
+message = "Result: "+str(result3 + result5)
+message = str(guess)
+game.show_long_text(message, DialogLayout.CENTER)
+
+message = str(guess)
+
+if (result3 + result5  == 0 ):
+    message = "FizzBuz " + message
+elif (result3 == 0 ):
+    message = "Fizz " + message 
+elif (result5 == 5):
+    message = "Buzz " + message
+else:
+    message = "What?? " + message 
+
+game.show_long_text(message, DialogLayout.CENTER)

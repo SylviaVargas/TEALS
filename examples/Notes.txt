@@ -1,0 +1,3 @@
+To ask for a number
+
+https://arcade.makecode.com/reference/game/ask-for-string

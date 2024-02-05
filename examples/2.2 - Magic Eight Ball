@@ -1,0 +1,28 @@
+"""
+Lab 2.2 Magic 8 Ball
+
+"""
+
+game.splash("welcome to lab 2.1 - Magic 8 Ball")
+number= randint(1,8 )
+
+
+if number == 1:
+    message = "Possibly"
+if number == 2:
+    message = "No!"
+if number == 3:
+    message = "Yes!!"
+
+if number == 4:
+    message = "Ask again Later"
+if number == 5:
+    message = "Better not tell you now!"
+if number == 6:
+    message = "Yes!!"
+if number == 7:
+    message = "Cannot predict now!"
+if number == 8:
+    message = "Concentrate and ask again!!"
+
+game.show_long_text(message, DialogLayout.CENTER)

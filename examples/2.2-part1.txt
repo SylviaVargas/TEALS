@@ -1,0 +1,17 @@
+"""
+Lab 2.2 Part 1
+Code to To ask for a name and say hello
+
+"""
+
+game.splash("welcome to lab 2.1 - Part 1")
+number= randint(1, 10)
+guess= game.ask_for_number("Enter a number")
+
+# age = game.ask_for_number("How old are you?")
+if number != guess:
+    message = "Wrong guess.  Correct answer is: "+ str(number)
+else:
+    message = "Correct. The answer is "+ str(number)
+
+game.show_long_text(message, DialogLayout.CENTER)

@@ -4,7 +4,7 @@ Code to To ask for a name and say hello
 
 """
 
-game.splash("welcome to lab 2.1")
+game.splash("welcome to lab 1.1")
 # Make sure you hit the A buttom to start the session
 
 name= game.ask_for_string("Enter your name")

@@ -1,0 +1,29 @@
+Today
+- Create a background and an image of a wagon moving using a tile map
+
+  https://www.youtube.com/watch?v=IMo2gR1WFYU
+
+  Tile Map Videos
+  https://www.youtube.com/watch?v=_CLXzIrAGbk - Making a Tilemap game in MakeCode Arcade (Part One)
+  https://www.youtube.com/watch?v=Mx10kbQbskE - Making a Tilemap game in MakeCode Arcade (Part Two)
+  https://www.youtube.com/watch?v=NBdkNyJegds - Tilemaps and Levels in Microsoft MakeCode Arcade 
+ 
+
+
+https://www.youtube.com/watch?v=RSDBnChJCnw  MakeCode Arcade Advanced - 8x8 City Map (Too much non focused discussion)
+
+https://www.youtube.com/watch?v=9bSX9Q5aP6E - How to make a platformer Game(Part 1)
+Create a function that introduces that 
+
+
+
+Create a sprite/image 
+
+
+
+Other Ideas
+https://arcade.makecode.com/--skillmap#rockstar
+
+Side Car Scroller
+https://arcade.makecode.com/courses/csintro2/review/side-scroller 
+https://www.youtube.com/watch?v=QDpPnLHtQsQ

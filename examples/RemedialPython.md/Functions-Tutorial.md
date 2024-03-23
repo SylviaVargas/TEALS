@@ -26,6 +26,8 @@ result = add(3, 5)
 print(result)  # Output: 8
 ```
 
+- [Activity: Function - Return Values](https://arcade.makecode.com/courses/csintro3/functions/returns)
+
 #### Default Arguments
 You can provide default values for function arguments. If the caller doesn't specify a value for an argument, the default value is used.
 ```python

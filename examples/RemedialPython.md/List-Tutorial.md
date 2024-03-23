@@ -45,7 +45,9 @@ print(my_array)   # Output: array('i', [1, 2, 3, 15, 5])
    my_array = array('i', numbers)
    print(my_array)   # Output: array('i', [1, 2, 3, 4, 5])
    ```
-
+## More Reading
+   - https://www.freecodecamp.org/news/how-to-use-lists-in-python/
+   
 ### Quiz: Python Lists and Arrays
 
 1. What is the correct way to access the third element of a list named `my_list`?

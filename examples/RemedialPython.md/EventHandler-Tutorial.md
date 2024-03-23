@@ -5,7 +5,11 @@ In programming, an event handler is a piece of code that is designed to respond 
 #### What is an Event Handler?
 An event handler is a block of code that is triggered by a specific event. In MakeCode Arcade Blocks, events can include button presses, collisions between sprites, or timers reaching a certain value. When an event occurs, the corresponding event handler is executed, allowing you to define how your program should respond to that event.
 
+*EXAMPLES NEED UPDATING!!!*
+
 #### Example 1: Button Press Event Handler
+
+
 ```blocks
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     // Code to run when button A is pressed
